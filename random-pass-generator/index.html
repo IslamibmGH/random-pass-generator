@@ -1,0 +1,30 @@
+<html>
+
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+	<div id="mainBox">
+		<div id="content">
+			<div id="headings">
+				<h1 id="headingOne">Generate a</h1>
+				<h1 id="headingTwo">random password</h1>
+				<h3 id="tagline">Never use an insecure password again.</h3>
+			</div>
+			<div id="generator">
+				<button id="generatorBtn" onclick='handleOnClick()'>Generate Passwords</button>
+			</div>
+			<div id="line"></div>
+			<div id="passwords">
+				<h4 class="passwordBtn" id="passBtn1"
+                onclick="copyText('passBtn1')"></h4>
+				<h4 class="passwordBtn" id="passBtn2"
+                onclick="copyText('passBtn2')"></h4>
+			</div>
+		</div>
+	</div>
+	<script src="index.js"></script>
+</body>
+
+</html>
